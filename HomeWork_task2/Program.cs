@@ -4,14 +4,16 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Введите двачисла: ");
+Console.WriteLine("Введите два числа: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 int number2 = Convert.ToInt32(Console.ReadLine());
+int max;
  if(number1 > number2)
  {
-    Console.WriteLine("Первое число больше второго");
+   max = number1; 
  }
  else
  {
-    Console.WriteLine("Второе число больше первого");
+    max = number2;
  }
+Console.WriteLine("максимальное число: {0}" , max);
