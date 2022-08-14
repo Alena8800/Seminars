@@ -10,9 +10,12 @@ number = Math.Abs(number);
 int i = 0;
 while(i < number )
 {
-Console.WriteLine(i+=2); 
+i+=2;
+if(i<number)
+{
+    Console.WriteLine(i);
 }
-
+}
 
 
 
