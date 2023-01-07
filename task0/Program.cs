@@ -12,3 +12,11 @@ Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 //вывод результата на экран число
 Console.Write(number * number);
+
+//int number; //задали переменную с названием намбер
+//Console.Write("Введите число ");
+//number=Convert.ToInt32(Console.ReadLine()!); 
+//так как рид лайн считывает только строку, то конвентируем строку в число
+//int squareNumber = number * number; 
+//Console.WriteLine($"Квадрат числа  {number} равен,{squareNumber}");
+// знак доллара нужен для того чтобы вставить переменную, переменная пишется в фигурных скобках
